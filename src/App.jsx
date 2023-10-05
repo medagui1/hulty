@@ -1,7 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-// import "./App.css";
 import { AboutUs, CallToAction, CustomerReviews, Hero, Nav, Services } from './sections/index'
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
       <section className="">
         <Nav />
       </section>
-      <section>
+      <section id="home">
         <Hero />
       </section>
       <section>
