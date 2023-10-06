@@ -4,9 +4,9 @@ import CustomerReview from "../components/CustomerReview";
 const CustomerReviews = () => {
   let review = customersReviews[0];
   return (
-    <div className="bg-primary p-15 mt-8 p-20 max-sm:p-5">
+    <div className="bg-primary p-15 mt-8 p-20 max-sm:p-5 rounded-[40px]">
       <div className="flex justify-between flex-2 max-xl:justify-center flex-wrap gap-8">
-        <h1 className="text-7xl font-bold max-sm:text-5xl mb-10 mr-40 max-xl:mr-20">What our <br />customers say</h1>
+        <h1 className="text-7xl font-bold max-sm:text-5xl mb-10 mr-40 max-xl:mr-20 max-sm:ml-8 max-sm:mt-8">What our <br />customers say</h1>
         {/* <div className="max-lg:self-center my-4">
           <CustomerReview
             content={review.content}

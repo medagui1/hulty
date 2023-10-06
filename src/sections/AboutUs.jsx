@@ -18,8 +18,7 @@ const AboutUs = () => {
         </div>
         <div>
           <h2 className="font-bold text-4xl mt-6">
-            We can bring life to everything you have envisioned and dreamed of -
-            your ideals and desires are our creations.
+            We can bring life to everything you have envisioned and dreamed of.
           </h2>
           <p className="my-8">
             Our purpose is to transform your wildest dreams into reality.
