@@ -46,3 +46,20 @@ export const customersReviews = [
     rating: '⭐⭐⭐⭐⭐',
   },
 ];
+export const services = [
+  {
+    order : '01',
+    service : 'Furniture Design',
+    content : 'The design of furniture holds substantial influence over the aesthetics, ambience and usability of an area, exerting a profound effect on our everyday experiences.'
+  },
+  {
+    order : '02',
+    service : 'Interior Design',
+    content : 'Incorporating interior detailing introduces dimension, tactile qualities, and captivating visual elements to a room, enhancing the overall design through the addition of those final embellishments.'
+  },
+  {
+   order : '03',
+   service : 'Home Revamping',
+   content : 'The design of furniture holds substancial influence over the aesthetics, ambiance, and usability of an area, exerting a profound effect on our everday experiences.' 
+  }
+]

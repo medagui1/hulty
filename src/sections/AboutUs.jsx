@@ -1,9 +1,9 @@
-import long_shoot from "../assets/long_shoot.png";
+import long_shoot from "../assets/long_shoot.webp";
 import Button from "../components/Button";
 
 const AboutUs = () => {
   return (
-    <div className="flex mt-6 gap-10 max-lg:flex-col max-h-4xl">
+    <div className="flex mt-8 gap-10 max-lg:flex-col max-h-4xl">
       <div className="">
         <img
           src={long_shoot}

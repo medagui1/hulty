@@ -8,12 +8,12 @@ function App() {
 
   return (
     <main className="relative font-satoshi text-primary max-lg:p-5 p-4 max-w-7xl m-auto">
-      <section className="">
+      <nav className="">
         <Nav />
-      </section>
-      <section id="home">
+      </nav>
+      <header id="home">
         <Hero />
-      </section>
+      </header>
       <section id="about-us">
         <AboutUs />
       </section>
@@ -23,9 +23,9 @@ function App() {
       <section>
         <Services />
       </section>
-      <section>
+      <footer>
         <CallToAction />
-      </section>
+      </footer>
     </main>
   );
 }
