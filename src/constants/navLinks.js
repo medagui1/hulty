@@ -63,3 +63,22 @@ export const services = [
    content : 'The design of furniture holds substancial influence over the aesthetics, ambiance, and usability of an area, exerting a profound effect on our everday experiences.' 
   }
 ]
+
+export const footer_links = [
+  {
+    name : 'About Us',
+    link : ''
+  },
+  {
+    name : 'Management',
+    link : ''
+  },
+  {
+    name : 'Project',
+    link : ''
+  },
+  {
+    name : 'FAQs',
+    link : ''
+  },
+]
