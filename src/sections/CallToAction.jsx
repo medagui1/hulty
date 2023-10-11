@@ -4,7 +4,7 @@ const CallToAction = () => {
   return (
     <div className="flex flex-col p-12 bg-secondary rounded-[40px] text-white max-lg:items-start mt-8">
       <div className="flex justify-between items-center w-full max-sm:flex-col gap-10 max-sm:items-start">
-        <h1 className="text-7xl font-semibold max-lg:text-6xl ">
+        <h1 className="text-7xl font-semibold max-lg:text-6xl max-sm:text-5xl">
           Start Your <br />
           Project Now!
         </h1>

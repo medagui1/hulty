@@ -11,11 +11,13 @@ export default {
     extend: {
       colors : {
         'primary' : "#050F27",
+        'secondary' : '#1D263C'
       },
       backgroundColor : {
-        'secondary' : "#050F27",
+        'secondary' : "#1D263C",
         'primary' : "#F7F8F8",
-        'tertiary' : '#ffffff05'
+        'tertiary' : '#ffffff10',
+        'dark_bg' : '#050F27'
       }
     },
   },

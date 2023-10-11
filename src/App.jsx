@@ -5,11 +5,12 @@ import { AboutUs, CallToAction, CustomerReviews, Hero, Nav, Services } from './s
 
 function App() {
   const [count, setCount] = useState(0);
+  const [isMenuShown, setIsMenuShown] = useState()
 
   return (
-    <main className="relative font-satoshi text-primary max-lg:p-5 p-4 max-w-7xl m-auto">
+    <main className="relative font-satoshi text-primary dark:text-white max-lg:p-5 p-4 max-w-7xl m-auto ">
       <nav className="">
-        <Nav />
+        <Nav isMenuShown={isMenuShown} setIsMenuShown={setIsMenuShown}/>
       </nav>
       <header id="home">
         <Hero />

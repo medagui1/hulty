@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 const AboutUs = () => {
   return (
-    <div className="flex mt-8 gap-10 max-lg:flex-col max-h-4xl">
+    <div className="flex mt-8 gap-10 max-lg:flex-col max-h-4xl ">
       <div className="">
         <img
           src={long_shoot}
@@ -11,7 +11,7 @@ const AboutUs = () => {
           className="h-[600px] w-[250px] max-lg:hidden"
         />
       </div>
-      <div className="flex flex-col bg-primary px-40 max-lg:p-10 max-w-5xl pb-30 rounded-[50px] flex-1">
+      <div className="flex flex-col bg-primary dark:bg-secondary px-40 max-lg:p-10 max-w-5xl pb-30 rounded-[50px] flex-1">
         <div className="flex flex-col items-start justify-start self-end mt-10 max-lg:m-0">
           <p>Satisfied Clients</p>
           <h3 className="mt-1 text-4xl font-bold">8.4M+</h3>
