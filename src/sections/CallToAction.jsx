@@ -29,6 +29,8 @@ const CallToAction = () => {
           ))}
         </div>
       </nav>
+          <p className="text-center mt-4">Made with ❤️ from <a href="https://github.com/mohamedregragui">Medagui</a></p>
+        
     </div>
   );
 };
