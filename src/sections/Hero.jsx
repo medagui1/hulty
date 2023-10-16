@@ -25,7 +25,7 @@ const Hero = () => {
           We craft the future dwelling.
         </h1>
         <div>
-          <img src={wide_shoot} alt="" />
+          <img src={wide_shoot} alt="" loading="lazy"/>
         </div>
 
       </div>

@@ -7,6 +7,7 @@ const AboutUs = () => {
       <div className="">
         <img
           src={long_shoot}
+          loading="lazy"
           alt=""
           className="h-[600px] w-[250px] max-lg:hidden"
         />
